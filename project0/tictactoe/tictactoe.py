@@ -165,8 +165,6 @@ def max_val(board, maximum, minimum):
         if check > v:
             v = check
             move = action
-        '''if maximum > minimum:
-            break'''
 
     return [v, move]
 
@@ -189,7 +187,5 @@ def min_val(board, maximum, minimum):
         if check < v:
             v = check
             move = action
-        '''if maximum < minimum:
-            break'''
 
     return [v, move]
